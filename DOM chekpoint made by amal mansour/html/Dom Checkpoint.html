@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/bootstrape.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">ShOPPinG CaRd</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+    <br>
+    <br>
+  </header>
+
+  <main>
+<!-- caroussel bootstrap image from web site  -->
+   <section>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://economictimes.indiatimes.com/thumb/msid-54750111,width-1200,height-900,resizemode-4,imgsize-57243/wealth/spend/spending-behaviour-why-women-enjoy-shopping-but-most-men-dont/shopping-men-thinkstock.jpg?from=mdr" class="d-block w-100" alt="paysage">
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.marketingmag.com.au/wp-content/uploads/2015/04/young-women-shopping.jpg	" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://cdn.images.express.co.uk/img/dynamic/130/590x/women-shopping-825605.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+</section> 
+
+
+
+    <section class="boxs">
+      <div  id ="container" class="boxs-container">
+        <div class="group-items">
+          <div id="total" class=" total-counter"> shopping bag totale 0$</div>
+          <div class="box-item">
+            <div class=btn-container>
+              <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+            <img class="shoes"
+              src="https://rukminim1.flixcart.com/image/714/857/k41mp3k0/shoe/w/r/w/8808-pink-41-41-mamzer-pink-original-imafggb9dt43ydjy.jpeg?q=50"
+              alt="shoes"><span> BasKeT</span>
+            <div>
+              <button id="quant" class="add"> + </button><span class="qute"> 0 </span> 
+              <button id="dec" class="minus"> - </button> <span class="price"> 120$ </span> 
+              
+              
+              
+            </div>
+          </div>
+
+
+          <div class="box-item">
+            <div class=btn-container>
+              <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+            <img class="shoes"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-7COvmHAZ9Yxi9URuLP7Lg3i1A0GYDTpIzw&usqp=CAU"
+               alt="shoes"><span>SocKs</span>
+            <div>
+              <button id="quant" class="add"> + </button><span class="qute"> 0 </span> <button id="dec" class="minus"> - </button> <span class="price">20$</span>
+            </div>
+          </div>
+
+          <div class="box-item">
+            <div class=btn-container>
+              <button type="button" class="btn-close" aria-label="Close"></button>
+            </div>
+            <img class="shoes"
+              src="https://5.imimg.com/data5/KB/OU/IV/SELLER-96604253/girls-college-bag-500x500.jpg" alt="shoes"><span> BaG</span>
+            <div>
+              <button id="quant" class="add"> + </button><span class="qute"> 0 </span> <button id="dec" class="minus"> - </button> <span class="price">80$</span>
+            </div>
+          </div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      </div>
+    </section>
+
+  </main>
+ 
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="../javascript/DOM.js"></script>
+
+</body>
+
+</html>
